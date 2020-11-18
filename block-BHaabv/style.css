@@ -34,8 +34,7 @@ p{
 .bgColor{
 
     background-color: rgb(37,43,67);
-    position: absolute;
-    height: inherit;
+    position: absolute;  
     width: 100%;
     position: absolute;
     top: 5px;
@@ -67,4 +66,24 @@ p{
     height: 50px;
     background: linear-gradient(to right, rgb(177,11,47),rgb(155, 7, 39));
     position: relative;
+}
+.smbox{
+    width: 23%;
+    background-color: rgb(37,43,67);
+}
+.innerBox{
+    border-radius: 12px;
+    width: 23%;
+    background-color: rgb(37,43,67);
+}
+body{
+    background: linear-gradient(rgb(32,34,47) 45%,rgb(29,32,41));
+}
+.white{
+    color: rgb(221, 221, 221);
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+
 }
