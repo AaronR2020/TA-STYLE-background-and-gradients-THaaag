@@ -1,0 +1,70 @@
+.space_between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+
+}
+.inline{
+    display: inline;
+}
+.toggleOut{
+    border-radius: 25px;
+    margin: 0 10px;
+    width: 40px;
+    height: 20px;
+    background: linear-gradient(45deg, rgb(68,135,184) ,rgb(58,206,151) );
+}
+.toggleIn{
+    border-radius: 100%;
+    margin-left: 2px;
+    margin-top: 2px;
+    padding: 6px;
+    height: 5px;
+    width: 5px;
+    background: linear-gradient(to right, rgb(36,44,65) ,rgb(36,44,65) );
+}
+p{
+    font-size: 20px;
+}
+.bgColor{
+
+    background-color: rgb(37,43,67);
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    position: absolute;
+    top: 5px;
+}
+.bg1{
+    border-radius: 5px;
+    width: 23%;
+    height: 50px;
+    background: linear-gradient(to right, rgb(109, 59, 226),rgb(34,125,207));
+    position: relative;
+}
+.bg2{
+    border-radius: 5px;
+    width: 23%;
+    height: 50px;
+    background: linear-gradient(to right,rgb(50,157,229),rgb(50,157,229));
+    position: relative;
+}
+.bg3{
+    border-radius: 5px;
+    width: 23%;
+    height: 50px;
+    background: linear-gradient(to right, rgb(244,187,126),rgb(211,82,148),red);
+    position: relative;
+}
+.bg4{
+    border-radius: 5px;
+    width: 23%;
+    height: 50px;
+    background: linear-gradient(to right, rgb(177,11,47),rgb(155, 7, 39));
+    position: relative;
+}
